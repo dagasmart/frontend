@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Lang } from '../types';
   import { news } from '../i18n';
+  import type { Lang } from '../types';
 
   // Accept lang as bindable prop from parent
   let { lang = $bindable<Lang>('zh') } = $props();
